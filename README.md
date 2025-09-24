@@ -2,6 +2,10 @@
 
 A simple MCP (Model Context Protocol) server built with FastMCP that provides basic mathematical operations.
 
+## Documentation
+
+For more information about FastMCP, visit: [https://gofastmcp.com/getting-started/welcome](https://gofastmcp.com/getting-started/welcome)
+
 ## Setup Instructions
 
 ### 1. Install Dependencies
@@ -24,6 +28,27 @@ The server will start on `http://127.0.0.1:3001/mcp` and display a banner with s
 ## Available Tools
 
 - **add**: Adds two integers together
+
+## Available Resources
+
+- **file://docs/llms.txt**: FastMCP documentation and links
+
+## Testing with MCP Inspector
+
+You can use the MCP Inspector to test and explore your server in a web browser:
+
+```bash
+npx @modelcontextprotocol/inspector
+```
+
+The MCP Inspector ([modelcontextprotocol/inspector](https://github.com/modelcontextprotocol/inspector)) is a visual testing tool that allows you to:
+- Connect to your local MCP server
+- Inspect available tools and resources
+- Test tool execution with different parameters
+- View resource contents
+- Debug your MCP server implementation
+
+Simply run the inspector command and navigate to the provided URL in your browser to start testing your server.
 
 ## Troubleshooting
 
